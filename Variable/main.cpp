@@ -10,7 +10,9 @@ int main()
 
     cout <<"There once was a man named " << characterName << endl;
     cout <<"He was " << characterAge << " years old" << endl;
-    cout <<"He liked the name Geoge" << endl;
+
+    characterName = "Tom"; //change name half way through story
+    cout <<"He liked the name " << characterName << endl;
     cout <<"But didn't like being 70" << endl;
 
 return 0;
